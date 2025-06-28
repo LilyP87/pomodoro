@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ---------------------------------- UNICONS ------------------------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <!-- ---------------------------------- SWIPER CSS --------------------------------- -->
+    <link
+      rel="stylesheet"
+      href="css/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.css"
+    />
+
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Minuteur Pomodoro</h1>
+      <span id="toggle-theme">
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+      </span>
+      <p id="session-label">Session de travail</p>
+      <div id="timer">25:00</div>
+
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+      </div>
+
+      <div class="controls">
+        <button id="start">Démarrer</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Réinitialiser</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
